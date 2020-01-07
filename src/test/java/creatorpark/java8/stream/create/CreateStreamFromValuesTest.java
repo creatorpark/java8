@@ -1,4 +1,4 @@
-package creatorpark.java8.stream;
+package creatorpark.java8.stream.create;
 
 import java.util.stream.Stream;
 

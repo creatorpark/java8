@@ -1,5 +1,6 @@
-package creatorpark.java8.stream;
+package creatorpark.java8.stream.create;
 
+import java.util.Arrays;
 import java.util.stream.IntStream;
 
 import org.junit.Test;
@@ -12,11 +13,12 @@ public class CreateIntStreamFromRangeTest {
 
 	@Test
 	public void intStreams() {
-		
 		IntStream oneToFive = IntStream.range(1,6);
 		//IntStream oneToFive = IntStream.rangeClosed(1,5);
 		oneToFive.forEach(System.out::println);
-		
 	}
+	
+	
+	
 	
 }
