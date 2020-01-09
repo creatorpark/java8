@@ -1,13 +1,13 @@
-package creatorpark.java8;
+package creatorpark;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Java8Application {
+public class JavaFundamentalsApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Java8Application.class, args);
+		SpringApplication.run(JavaFundamentalsApplication.class, args);
 	}
 
 }
