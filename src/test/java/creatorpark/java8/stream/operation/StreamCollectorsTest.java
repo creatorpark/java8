@@ -30,25 +30,4 @@ public class StreamCollectorsTest {
 		    System.out.println(s);
 		}
 	}
-	
-//	@Test
-	public void joining() {
-		Stream<String> fruits = Stream.of("mango", "kiwi", "peach", "cherry", "lemon");
-		String joining = fruits.collect(Collectors.joining() );
-		log.info(joining); // mangokiwipeachcherrylemon
-	}
-	
-//	@Test
-	public void joiningDelimiter() {
-		Stream<String> fruits = Stream.of("mango", "kiwi", "peach", "cherry", "lemon");
-		String joining = fruits.collect(Collectors.joining(",") ); // mango,kiwi,peach,cherry,lemon
-		log.info(joining); // mango,kiwi,peach,cherry,lemon
-	}
-	
-	@Test
-	public void joiningDelimiterPrefixPostfix() {
-		Stream<String> fruits = Stream.of("mango", "kiwi", "peach", "cherry", "lemon");
-		String joining = fruits.collect(Collectors.joining(",", "Name : ", ", Good.") );
-		log.info(joining); // Name : mango,kiwi,peach,cherry,lemon, Good.
-	}
 }
