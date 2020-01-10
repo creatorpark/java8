@@ -1,4 +1,4 @@
-package creatorpark.concurrent.future;
+package creatorpark.concurrent.future.task;
 
 import java.util.Objects;
 import java.util.concurrent.Callable;
